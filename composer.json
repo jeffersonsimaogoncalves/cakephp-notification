@@ -1,21 +1,44 @@
 {
-    "name": "aschelch/cakephp-notification-plugin",
-    "description": "CakePHP Notification Plugin provide an notification system",
-    "type": "cakephp-plugin",
-    "extra": {
-        "installer-name": "Notification"
+  "name": "jeffersonsimaogoncalves/cakephp-notification",
+  "description": "CakePHP Notification Plugin provide an notification system",
+  "type": "cakephp-plugin",
+  "keywords": [
+    "cakephp",
+    "plugin",
+    "notification"
+  ],
+  "homepage": "https://github.com/jeffersonsimaogoncalves/cakephp-notification",
+  "authors": [
+    {
+      "name": "Aurélien Schelcher",
+      "homepage": "http://www.aschelch.fr",
+      "role": "Author"
     },
-    "keywords": ["cakephp", "plugin", "notification"],
-    "homepage": "https://github.com/aschelch/cakephp-notification-plugin",
-    "authors": [
-        {
-            "name": "Aurélien Schelcher",
-            "homepage": "http://www.aschelch.fr",
-            "role": "Author"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.0",
-        "composer/installers": "*"
+    {
+      "name": "Jefferson Simão Gonçalves",
+      "homepage": "https://github.com/jeffersonsimaogoncalves",
+      "role": "Author"
     }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-json": "@stable",
+    "cakephp/cakephp": "^3.7"
+  },
+  "support": {
+    "issues": "https://github.com/jeffersonsimaogoncalves/cakephp-notification/issues",
+    "source": "https://github.com/jeffersonsimaogoncalves/cakephp-notification"
+  },
+  "autoload": {
+    "psr-4": {
+      "JeffersonSimaoGoncalves\\Notification\\": "src"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "htaccess-protect": true,
+    "optimize-autoloader": true
+  }
 }
