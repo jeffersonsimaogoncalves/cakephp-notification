@@ -23,7 +23,9 @@
   "require": {
     "php": ">=7.0",
     "ext-json": "@stable",
-    "cakephp/cakephp": "^3.7"
+    "cakedc/users": "@stable",
+    "cakephp/cakephp": "^3.7",
+    "cakephp/migrations": "2.0.0"
   },
   "support": {
     "issues": "https://github.com/jeffersonsimaogoncalves/cakephp-notification/issues",
